@@ -41,11 +41,7 @@ preferences (the development tests run this way on Linux; macOS is untested).
 
 ## Step by step
 
-[![Photogram3D. Managing the scene: a video of the crop stage on YouTube](docs/manual/video_managing_the_scene.jpg)](https://youtu.be/ruF8eCvebvI)
 
-The video [*Photogram3D. Managing the scene*](https://youtu.be/ruF8eCvebvI) (YouTube) shows the
-crop stage of step 2.7 on the WRX photo set: leveling the ground, the real size from two points,
-and the crop box. The screenshots below are of the same set, in Blender 5.2.
 
 ### 1. First start
 
@@ -107,7 +103,13 @@ and the crop box. The screenshots below are of the same set, in Blender 5.2.
       inside is meshed and textured. **Reset Box** fits it to the cloud again.
    3. Press **Build Mesh** (or **Without Crop** to mesh everything).
 
-      ![The panel during Build Mesh: step 9 of 13, the mesh made inside the crop box](docs/manual/07_progress_mesh.png)
+[![Photogram3D. Managing the scene: a video of the crop stage on YouTube](docs/manual/video_managing_the_scene.jpg)](https://youtu.be/ruF8eCvebvI)
+
+The video [*Photogram3D. Managing the scene*](https://youtu.be/ruF8eCvebvI) (YouTube) shows the
+crop stage of step 2.7 on the WRX photo set: leveling the ground, the real size from two points,
+and the crop box. The screenshots below are of the same set, in Blender 5.2.
+
+![The panel during Build Mesh: step 9 of 13, the mesh made inside the crop box](docs/manual/07_progress_mesh.png)
 
 8. **Result.** The textured mesh is imported under the scan's root (`P3D_WRX_1`, in the
    collection `Photogram3D_1 WRX`), with one camera per photo in `Photogram3D_1 WRX Cameras`. The
