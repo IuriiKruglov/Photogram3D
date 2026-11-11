@@ -1,0 +1,23 @@
+# Photogram3D - photos or video to a textured mesh with COLMAP + OpenMVS
+# Authors: Kruglov Iurii, Anthropic Claude AI
+# License: GNU General Public License (GPL) v3 or later, https://www.blender.org/about/license/
+
+schema_version = "1.0.0"
+
+id = "photogram3d"
+version = "0.3.15"
+name = "Photogram3D"
+tagline = "Photos or video to a textured mesh with COLMAP 4 and OpenMVS"
+maintainer = "Kruglov Iurii"
+type = "add-on"
+
+tags = ["Import-Export", "Mesh", "Camera"]
+
+blender_version_min = "5.2.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
+copyright = ["2026 Kruglov Iurii", "2026 Anthropic Claude AI"]
+
+[permissions]
+network = "Download COLMAP, OpenMVS, FFmpeg, Brush and the AI model"
+files = "Read photos and videos, write reconstructions and tools"
