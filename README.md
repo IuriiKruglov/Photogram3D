@@ -23,8 +23,9 @@ preferences (the development tests run this way on Linux; macOS is untested).
    [Releases](https://github.com/IuriiKruglov/photogram3d/releases/latest) page. Blender 5.2 →
    *Edit › Preferences › Get Extensions* → **⌄** (top right) → *Install from Disk…* → the zip
    (or drag the zip into the Blender window).
-2. *Preferences › System › Network*: enable **Allow Online Access** (needed for the downloads).
-3. 3D Viewport → **N** → **Photogram3D** tab → **Install Tools**.
+      The same zip is also on [Gumroad](https://tricky3d.gumroad.com/l/Photogram3D).
+3. *Preferences › System › Network*: enable **Allow Online Access** (needed for the downloads).
+4. 3D Viewport → **N** → **Photogram3D** tab → **Install Tools**.
    Downloads into the extension's user folder (change it in the add-on preferences, ideally to a
    path with only Latin characters):
 
@@ -35,7 +36,7 @@ preferences (the development tests run this way on Linux; macOS is untested).
    | FFmpeg 8.1 | ~160 MB | only for video input (can be switched off in preferences) |
    | Brush 0.3.0 | 159 MB | only for *Gaussian Splats*, downloaded the first time they are used |
 
-4. If a tool doesn't start (error 0xC0000135 / 0xC0000139), press **Install Visual C++ Runtime**.
+5. If a tool doesn't start (error 0xC0000135 / 0xC0000139), press **Install Visual C++ Runtime**.
    COLMAP 4.2.1 is built with Visual Studio 2026 and needs Microsoft's latest v14 runtime
    (14.51 or newer). The button downloads Microsoft's official installer and starts it with an
    administrator prompt. Then press **Check Tools**.
