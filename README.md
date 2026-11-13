@@ -10,7 +10,6 @@ Authors: Kruglov Iurii, Anthropic Claude AI · License: [GNU General Public Lice
 How it was built, the problems met on the way, the measurements and the tools written to solve
 them are described in [DEVELOPMENT.md](DEVELOPMENT.md).
 
-Gumroad link https://tricky3d.gumroad.com/l/Photogram3D
 
 ---
 
